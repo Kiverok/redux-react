@@ -18,6 +18,8 @@ export default class PostForm extends React.Component {
         const newPost = {
 title, id: Date.now().toString()
         }
+        console.log(newPost)
+        this.setState( {title: ''})
     }
 
     changeInputHandler = event => {
