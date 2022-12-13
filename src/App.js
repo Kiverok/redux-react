@@ -18,7 +18,7 @@ function App() {
         </div>
         <div className="col">
           <h2>Асинхроні пости</h2>
-          <FetchedPosts posts={[]} />
+          <FetchedPosts />
         </div>
       </div>
     </div>
